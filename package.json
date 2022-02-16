@@ -1,7 +1,7 @@
 {
-  "name": "project-name",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my portfolio.",
   "main": "index.js",
   "scripts": {
     "start": "run-p watch watch:styles",
@@ -16,7 +16,7 @@
     "publish": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "Your name",
+  "author": "Vincenzo Arena",
   "license": "ISC",
   "devDependencies": {
    "gh-pages": "^3.2.3",
