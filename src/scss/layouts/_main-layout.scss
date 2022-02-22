@@ -29,7 +29,39 @@ main{
                 .about-name, .about-link{
                     font-weight: 900;
                 }
-            }           
+            }  
        }
     }
 }
+.draw{
+    background-color: #FFFFFF;
+    width: 30vw;
+    height: 50vh;
+    div{
+        h3{
+            background-color: #037F8C;
+            height: 7vh;
+            width: 20vw;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 1rem;
+            margin: 0;
+        }
+    }
+}
+.draw-one{
+    padding: 1rem;
+    img{
+        width: 7vw;
+        height: 7vw;
+    }  
+    a{
+    font-weight: 900;
+    }
+}
+/* a:any-link{
+    text-decoration: none;
+    color: black;
+} */
