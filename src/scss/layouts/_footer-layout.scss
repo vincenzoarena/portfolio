@@ -4,7 +4,8 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100%;
+    width: 80vw;
+    margin-left: 10vw;
     background-color: #3C1D40;
     h2{}
     h3{}
@@ -15,10 +16,17 @@ footer{
         align-items: center;
         li{
             display: inline;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 6vw;
             a{
                 color: #FFFFFF;
                 text-decoration: none;
             }
         }
+    }
+    hr{
+        width: 100%;
+        border: rgba(255, 255, 255, 0.173) 1px solid;
     }
 }

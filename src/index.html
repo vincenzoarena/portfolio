@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/3c09bcb51a.js"></script>
     <link rel="icon" href="./images/va-icon.png">
+    <link rel="stylesheet" href="./scss/vendor/fontawesome-free-6.0.0-web/css/all.css">
     <title>VA - Dream it! Draw it! Code it!</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
@@ -43,12 +44,16 @@
     </header>
     <main>
       <section>
-        <article>
-            <h3>About me</h3>
-            <p>Vincenzo Arena</p>
-            <p>Student @DCI (ne-year Web Development Course).<br>Past coding experiences:<br>- some Pascal;<br>- building boot menus on MS-DOS;.<br>Both years ago and forgotten.<br>Currently working with Markdown, HTML, CSS, SCSS.<br>I'm a bit of a nerd; I love everything related to comics and manga, movies, TV series, cartoons and anime.<br> Huge MARVEL fan, and DUNGEON&DRAGONS (mostly version 3.5) addicted.<br>
-              I love to draw comics' characters, and scene and characters from the RGP session I have with my friends on Monday nights.
-            </p>
+        <article class="about">
+            <div>
+              <h3>About me</h3>
+            </div>
+            <div class="about-text">
+              <p class="about-name">Vincenzo Arena</p>
+              <p>Student @DCI (ne-year Web Development Course).<br>Past coding experiences:<br>- some Pascal;<br>- building boot menus on MS-DOS;.<br>Both years ago and forgotten.<br>Currently working with Markdown, HTML, CSS, SCSS.<br>I'm a bit of a nerd; I love everything related to comics and manga, movies, TV series, cartoons and anime.<br> Huge MARVEL fan, and DUNGEON&DRAGONS (mostly version 3.5) addicted.<br>
+              I love to draw comics' characters, and scene and characters from the RGP session I have with my friends on Monday nights.</p>
+              <a href="#" class="about-link">Learn more...</a>
+            </div>
         </article>
       </section>
     </main>
@@ -63,7 +68,19 @@
         <li><a href="https://www.deviantart.com/keldortheevil" target="_blank"><i class="fab fa-deviantart"></i></a></li>
         <li><a href="https://www.flickr.com/photos/penninoematita" target="_blank"><i class="fab fa-flickr"></i></a></li>
       </ul>
-  </footer>
+      <hr />
+      <div>
+        <h5>Made with ❤️ by Vincenzo Arena</h5>
+        <h6>
+          Copyright © <span id="year"></span> VA Inc. All rights reserved.
+        </h6>
+      </div>
+    </footer>
+    <script>
+      let span = document.getElementById("year");
+      let year = new Date().getFullYear();
+      span.innerHTML = year;
+    </script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
