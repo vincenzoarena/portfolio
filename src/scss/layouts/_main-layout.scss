@@ -5,9 +5,10 @@ main{
     padding: 1rem;
     section{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-       .about{
+        flex-direction: column;
+       /* .about{
            background-color: #FFFFFF;
            width: 30vw;
            height: 50vh;
@@ -23,7 +24,7 @@ main{
                     padding-left: 1rem;
                     margin: 0;
                 }
-            }
+            } */
             .about-text{
                 padding: 1rem;
                 .about-name, .about-link{
@@ -61,7 +62,21 @@ main{
     font-weight: 900;
     }
 }
-/* a:any-link{
-    text-decoration: none;
-    color: black;
-} */
+.about, .draw, .code{
+    background-color: #FFFFFF;
+    width: 30vw;
+    height: 50vh;
+    div{
+        h3{
+            background-color: #037F8C;
+            height: 7vh;
+            width: 20vw;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 1rem;
+            margin: 0;
+        }
+    }
+}
