@@ -19,8 +19,8 @@ main{
 }
 .about, .draw, .code{
     background-color: #FFFFFF;
-    width: 30vw;
-    height: 50vh;
+    width: 70vw;
+    height: 35vh;
     margin: 2vw;
     div{
         h3{
@@ -36,13 +36,22 @@ main{
         }
     }
 }
+.draw{
+    display: flex;
+}
 .draw-one{
     padding: 1rem;
     img{
         width: 7vw;
         height: 7vw;
     }  
-    a{
+    
+}
+.code-text{
+    padding: 1rem;
+}
+a{
     font-weight: 900;
-    }
+    color: black;
+    text-decoration: none;
 }
