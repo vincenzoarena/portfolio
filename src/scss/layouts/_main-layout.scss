@@ -17,7 +17,7 @@ main{
        
     }
 }
-.about, .draw, .code{
+.about, .draw, .code, .contacts{
     background-color: #FFFFFF;
     width: 70vw;
     height: 35vh;
@@ -38,16 +38,19 @@ main{
 }
 .draw{
     display: flex;
+    flex-direction: column;
+}
+.draw-me{
+    padding: 1rem;
 }
 .draw-one{
-    padding: 1rem;
     img{
         width: 7vw;
         height: 7vw;
     }  
     
 }
-.code-text{
+.code-text, .contacts-text{
     padding: 1rem;
 }
 a{

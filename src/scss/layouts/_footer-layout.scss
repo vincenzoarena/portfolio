@@ -7,18 +7,16 @@ footer{
     width: 80vw;
     margin-left: 10vw;
     background-color: #3C1D40;
-    h2{}
-    h3{}
     ul{
         display: flex;
         list-style: none;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        width: 50%;
         li{
             display: inline;
             justify-content: space-around;
             align-items: center;
-            margin-left: 6vw;
             a{
                 color: #FFFFFF;
                 text-decoration: none;
