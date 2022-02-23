@@ -17,14 +17,16 @@ footer{
             display: inline;
             justify-content: space-around;
             align-items: center;
-            a{
-                color: #FFFFFF;
-                text-decoration: none;
-            }
         }
     }
     hr{
         width: 100%;
         border: rgba(255, 255, 255, 0.173) 1px solid;
+    }
+}
+footer{
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
     }
 }
