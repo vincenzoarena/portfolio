@@ -18,7 +18,7 @@ main{
     }
 }
 .about, .contacts{
-    background-color: #FFFFFF;
+    background-color: #F2D8C2;
     width: 70vw;
     margin: 2rem;
     div{
@@ -26,7 +26,7 @@ main{
             background-color: #037F8C;
             height: 7vh;
             width: 20vw;
-            color: #FFFFFF;
+            color: #F2D8C2;
             display: flex;
             justify-content: flex-start;
             align-items: center;
@@ -62,11 +62,14 @@ a{
     }
 }
 .about img{
-    max-width: 300px;
+    max-width: 50%;
     border: black 1px solid;
 }
+iframe{
+    max-width: 100%;;
+}
 .about img:hover{
-    max-width: 700px;
+    max-width: 100%;
     border: black 1px solid;
     padding: 10px 10px 40px 10px;
     background-color: wheat;
