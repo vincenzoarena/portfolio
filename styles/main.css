@@ -1,0 +1,250 @@
+header {
+  width: 80vw;
+  margin-left: 10vw;
+  background-color: #3C1D40;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+}
+header section {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  /* flex-direction: flex-start; */
+  /* Button for the menu */
+  /* Logo */
+  /* Social media links upper menu */
+}
+header section article {
+  width: 3rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+header section article div {
+  width: 2.5rem;
+  border: 2px #FFFFFF solid;
+  background-color: #FFFFFF;
+}
+header section .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 60vw;
+}
+header section .logo a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header section .logo a img {
+  width: 3rem;
+  height: 3rem;
+}
+header section .logo a span {
+  align-self: center;
+  color: #FFFFFF;
+  width: 60vw;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 6vw;
+}
+header section .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header section .social ul {
+  display: flex;
+  list-style: none;
+}
+header section .social ul li {
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 2vw;
+  /* a[target="_blank"] :nth-child(2)::after {
+      content: " \f09a";
+      font-family: "fontawesome", Arial, Helvetica, sans-serif;
+      text-decoration: none;
+  } */
+}
+header section .social ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #037F8C;
+  width: 5vw;
+  height: 5vw;
+  padding: 0.5vw;
+  border-radius: 50%;
+}
+header section {
+  /* Menu navigation bar */
+}
+header section nav {
+  display: inline;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+}
+header section nav ul {
+  list-style: none;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+header section nav ul li {
+  display: inline;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 6vw;
+}
+header section nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* .button:hover{
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid black;
+    background-color: #3C1D40;
+}
+
+.menu-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+/* .logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+} */
+main {
+  background-color: #05A6A6;
+  width: 80vw;
+  margin-left: 10vw;
+  padding: 1rem;
+}
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main section .about-text {
+  padding: 1rem;
+}
+main section .about-text .about-name, main section .about-text .about-link {
+  font-weight: 900;
+}
+
+.about, .draw, .code, .contacts {
+  background-color: #FFFFFF;
+  width: 70vw;
+  margin: 2rem;
+}
+.about div h3, .draw div h3, .code div h3, .contacts div h3 {
+  background-color: #037F8C;
+  height: 7vh;
+  width: 20vw;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.draw {
+  display: flex;
+  flex-direction: column;
+}
+
+.draw-me {
+  padding: 1rem;
+}
+
+.draw-one img {
+  width: 7vw;
+  height: 7vw;
+}
+
+.code-text, .contacts-text {
+  padding: 1rem;
+}
+
+a {
+  font-weight: 900;
+  color: black;
+  text-decoration: none;
+}
+
+.contacts-text p span {
+  font-weight: 900;
+}
+
+footer {
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  margin-left: 10vw;
+  background-color: #3C1D40;
+}
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+footer ul li {
+  display: inline;
+  justify-content: space-around;
+  align-items: center;
+}
+footer hr {
+  width: 100%;
+  border: rgba(255, 255, 255, 0.173) 1px solid;
+}
+
+footer a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body {
+  background-color: #263F73;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
