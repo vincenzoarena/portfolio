@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/3c09bcb51a.js"></script>
+    <meta author="Vincenzo Arena"/>
+    <meta keywords="portfolio html css scss">
     <link rel="icon" href="../images/va-icon.png">
     <link rel="stylesheet" href="../scss/vendor/fontawesome-free-6.0.0-web/css/all.css">
     <title>VA - Dream it! Draw it! Code it!</title>
@@ -38,7 +39,7 @@
             <li><a href="./about.html"><i class="fa-solid fa-info"></i> About me</a></li>
             <li><a href="#"><i class="fa-solid fa-pencil"></i> Drawings</a></li>
             <li><a href="./coding.html"><i class="fa-solid fa-code"></i> Coding</a></li>
-            <li><a href="#"><i class="fa-solid fa-address-card"></i> Contacts</a></li>
+            <li><a href="#cont"><i class="fa-solid fa-address-card"></i> Contacts</a></li>
           </ul>
         </nav>
       </section>
@@ -68,8 +69,8 @@
             <div>
               <h3>Contacts</h3>
             </div>
-            <div class="contacts-text">
-              <p>If you would ever like to contact me for a job offer or a commission sirectly and without using my social media (on some of them my nickname is <span>Keldor Evilmountain</span> or <span>KeldorTheEvil</span>), you can send me an E-Mail by clicking <a href="mailto:penninoematia@gmail.com">here <i class="fa-solid fa-envelope"></i></a></p>
+            <div class="contacts-text" id="cont">
+              <p>If you would ever like to contact me for a job offer or a commission directly and without using my social media (on some of them my nickname is <span>Keldor Evilmountain</span> or <span>KeldorTheEvil</span>), you can send me an E-Mail by clicking <a href="mailto:penninoematia@gmail.com">here <i class="fa-solid fa-envelope"></i></a></p>
                <p>As an alternative, I'm also reachable by phone to the number <a href="tel:+49123456789">+49123456789 <i class="fa-solid fa-phone"></i></a> from Tuesday to Friday from 17:30 to 19:00 CET.
             </div>
           </article>
@@ -91,12 +92,13 @@
       <a href="#">Go back up!</a>
       <hr />
       <div>
-        <h5>Made with ❤️ by Vincenzo Arena</h5>
+        <h5>Made with <i class="fa-solid fa-heart"></i> by Vincenzo Arena</h5>
         <h6>
           Copyright © <span id="year"></span> VA Inc. All rights reserved.
         </h6>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/3c09bcb51a.js"></script>
     <script>
       let span = document.getElementById("year");
       let year = new Date().getFullYear();

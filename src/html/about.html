@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/3c09bcb51a.js"></script>
+    <meta author="Vincenzo Arena"/>
+    <meta keywords="portfolio html css scss">
     <link rel="icon" href="../images/va-icon.png">
     <link rel="stylesheet" href="../scss/vendor/fontawesome-free-6.0.0-web/css/all.css">
     <title>VA - Dream it! Draw it! Code it!</title>
@@ -34,11 +35,11 @@
       <section class="menu-down">
         <nav>
           <ul>
-            <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
             <li><a href="#"><i class="fa-solid fa-info"></i> About me</a></li>
             <li><a href="./drawings.html"><i class="fa-solid fa-pencil"></i> Drawings</a></li>
             <li><a href="./coding.html"><i class="fa-solid fa-code"></i> Coding</a></li>
-            <li><a href="#"><i class="fa-solid fa-address-card"></i> Contacts</a></li>
+            <li><a href="#cont"><i class="fa-solid fa-address-card"></i> Contacts</a></li>
           </ul>
         </nav>
       </section>
@@ -50,18 +51,52 @@
             <h3>About me</h3>
           </div>
           <div class="about-text">
-            <p class="about-name">Vincenzo Arena</p>
-            <p>Student @DCI (ne-year Web Development Course).<br>Past coding experiences:<br>- some Pascal;<br>- building boot menus on MS-DOS;.<br>Both years ago and forgotten.<br>Currently working with Markdown, HTML, CSS, SCSS.<br>I'm a bit of a nerd; I love everything related to comics and manga, movies, TV series, cartoons and anime.<br> Huge MARVEL fan, and DUNGEON&DRAGONS (mostly version 3.5) addicted.<br>
-            I love to draw comics' characters, and scene and characters from the RGP session I have with my friends on Monday nights.</p>
-            <a href="#" class="about-link">Learn more...</a>
+            <p class="about-name">Hi Everyone! That's me, Vincenzo Arena!</p>
+            <h2>Something about myself...</h2>
+            <p>I was born in <span>Calabria</span>, in Southern Italy, the 26th May 1982. It was a very warm Wednesday and my weight was 4,2kg.</p>
+            
+            <p>
+              It seems that I had a lot of black hair on my head, I kind of miss them
+              right now. 😉
+            </p>
+            <br />
+            <img src="../images/me1.jpg" alt="Me as a child" /> <br />
+            <p>My hometown is called Palmi and is located on the coast. I love to see the Mediterranean Sea from my parents' flat.</p>
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1106.1555109698122!2d15.851680546821427!3d38.35638212021802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1315067351eedd33%3A0x40b95ae4ee22b70!2s89015%20Palmi%2C%20Metropolitan%20City%20of%20Reggio%20Calabria%2C%20Italy!5e0!3m2!1sen!2sde!4v1645688789477!5m2!1sen!2sde"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            ></iframe>
+            <p>They have a very nice view from their veranda. When the sky is clear from clouds you can also see <i>Sicily</i> and the archipelago of the <i>Aeolian Islands</i> on the Horizon.</p>
+            <br />
+            <img src="../images/palmi1.JPG" alt="View 1" /> <br />
+            <img src="../images/palmi2.JPG" alt="View 2" /> <br />
+            <img src="../images/palmi3.JPG" alt="View 3" /> <br />
+            <img src="../images/palmi4.JPG" alt="View 4" /><br />
+            <p>
+              I was probably born with a pencil in my hand, because I draw since when I
+              was a child. I tried to become a comics artist, but with no success,
+              sadly.
+            </p>
+            <br />
+            <p>
+              You could say that I'm a nerd since I love video games, RPGs and board
+              games, TV series, animates series, anime, manga, comics and movies (above
+              all the one from
+              <a href="https://www.marvel.com"><b>MARVEL COMICS</b></a
+              >).
+            </p>
           </div>
         </article>
         <article class="contacts">
           <div>
             <h3>Contacts</h3>
           </div>
-          <div class="contacts-text">
-            <p>If you would ever like to contact me for a job offer or a commission sirectly and without using my social media (on some of them my nickname is <span>Keldor Evilmountain</span> or <span>KeldorTheEvil</span>), you can send me an E-Mail by clicking <a href="mailto:penninoematia@gmail.com">here <i class="fa-solid fa-envelope"></i></a></p>
+          <div class="contacts-text" id="cont">
+            <p>If you would ever like to contact me for a job offer or a commission directly and without using my social media (on some of them my nickname is <span>Keldor Evilmountain</span> or <span>KeldorTheEvil</span>), you can send me an E-Mail by clicking <a href="mailto:penninoematia@gmail.com">here <i class="fa-solid fa-envelope"></i></a></p>
              <p>As an alternative, I'm also reachable by phone to the number <a href="tel:+49123456789">+49123456789 <i class="fa-solid fa-phone"></i></a> from Tuesday to Friday from 17:30 to 19:00 CET.
           </div>
         </article>
@@ -83,12 +118,13 @@
       <a href="#">Go back up!</a>
       <hr />
       <div>
-        <h5>Made with ❤️ by Vincenzo Arena</h5>
+        <h5>Made with <i class="fa-solid fa-heart"></i> by Vincenzo Arena</h5>
         <h6>
           Copyright © <span id="year"></span> VA Inc. All rights reserved.
         </h6>
       </div>
     </footer>
+    <script src="https://kit.fontawesome.com/3c09bcb51a.js"></script>
     <script>
       let span = document.getElementById("year");
       let year = new Date().getFullYear();
