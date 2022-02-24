@@ -1,0 +1,32 @@
+footer{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80vw;
+    margin-left: 10vw;
+    background-color: #3C1D40;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        li{
+            display: inline;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+    hr{
+        width: 100%;
+        border: rgba(255, 255, 255, 0.173) 1px solid;
+    }
+}
+footer{
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}

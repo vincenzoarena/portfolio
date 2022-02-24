@@ -11,7 +11,10 @@
 @import "./components/_components-dir";
 
 //Layout
-@import "./layouts/_layouts-dir";
+@import "./layout-index/_layout-index-dir";
+@import "./layout-about/_layout-about-dir";
+@import "./layout-drawing/_layout-drawing-dir";
+@import "./layout-coding/_layout-coding-dir";
 
 *{
     box-sizing: border-box;
@@ -25,4 +28,5 @@
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color: #263F73;
 }
