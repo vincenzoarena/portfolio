@@ -61,11 +61,11 @@ a{
         }
     }
 }
-img{
+.about img{
     max-width: 300px;
     border: black 1px solid;
 }
-img:hover{
+.about img:hover{
     max-width: 700px;
     border: black 1px solid;
     padding: 10px 10px 40px 10px;

@@ -17,7 +17,7 @@ main{
        
     }
 }
-.about, .draw, .code, .contacts{
+.code, .contacts, .screenshots{
     background-color: #FFFFFF;
     width: 70vw;
     margin: 2rem;
@@ -35,20 +35,6 @@ main{
         }
     }
 }
-.draw{
-    display: flex;
-    flex-direction: column;
-}
-.draw-me{
-    padding: 1rem;
-}
-.draw-one{
-    img{
-        width: 7vw;
-        height: 7vw;
-    }  
-    
-}
 .code-text, .contacts-text{
     padding: 1rem;
 }
@@ -62,5 +48,23 @@ a{
         span{
             font-weight: 900;
         }
+    }
+}
+.screenshots {
+    ul{
+        list-style: none;
+    }
+
+}
+.screenshots{
+    img{
+        width: 300px;
+        border: black 1px solid;
+    }
+    img:hover{
+        width: 700px;
+        border: black 1px solid;
+        background-color: wheat;
+        padding: 10px 10px 40px 10px;
     }
 }
