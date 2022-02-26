@@ -35,6 +35,11 @@ main{
         }
     }
 }
+.about {
+    .italic{
+        font-style: italic;
+    }
+}
 .draw{
     display: flex;
     flex-direction: column;
