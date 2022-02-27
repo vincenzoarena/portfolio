@@ -57,11 +57,11 @@ a{
 
 }
 .screenshots{
-    img{
+    .screens{
         width: 50%;
         border: black 1px solid;
     }
-    img:hover{
+    .screens:hover{
         width: 100%;
         border: black 1px solid;
         background-color: wheat;
