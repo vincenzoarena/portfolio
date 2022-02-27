@@ -4,7 +4,7 @@
 
 ---
 
-![Screenshot from Project](./images/my-portfolio.png)
+![Screenshot from Project](./src/images/my-portfolio.png)
 
 ---
 
