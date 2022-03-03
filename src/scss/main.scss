@@ -19,7 +19,6 @@
 *{
     box-sizing: border-box;
 }
-
 :root{
     padding: 0;
     margin: 0;
@@ -33,12 +32,12 @@ body {
         .socialMedia{
             width: 2em;
             height: 2em;
-        }
-    }
-    header, main{
+        };
+    };
+    header, main, footer{
         .icon{
             width: 1em;
             height: 1em;
         }
-    }
+    };
 }
